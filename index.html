@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Expenses Track</title>
+</head>
+<body>
+    <div class="container">
 
+        <h1 class="title">Expenses Track</h1>
+        <img class="logo" src="./862833073.png">
+        <p class="date">Today is : </p>
+
+        <p class="today">Today's Expenses :(In Millims)</p>
+        <div class="inputDiv">
+            <input class= "bottom" type="text" placeholder="Add Item here...">
+            <input class= "top" type="text" placeholder="Price">
+            <p class="product">* Product</p>
+            <p class="price">* Price $</p>
+            <a id="add" ><img class="addImg" src="plus.png" alt="Add"></i></a>
+        </div>      
+        
+        <div class="resultDiv">
+            <div class="item"></div>
+            <div class="prx"></div>
+            
+        </div>
+        <button class="result">Today's Expenses</button>
+        <P class="finalResult"></P>
+    
+    </div>  
+    <script src="main.js"></script>
+</body>
+</html>
